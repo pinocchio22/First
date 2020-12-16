@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14755758732",
+    "firebase_url": "https://senierproject2014.firebaseio.com",
+    "project_id": "senierproject2014",
+    "storage_bucket": "senierproject2014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14755758732:android:8c53f73363998a80edf1a9",
+        "android_client_info": {
+          "package_name": "kr.ac.daejin.restaurantnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14755758732-ldlasdfisnafe3uums83jvk3e17ehh7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcCcp00yh4E2_yhl42voy7WMLMUMSPW5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14755758732-ldlasdfisnafe3uums83jvk3e17ehh7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

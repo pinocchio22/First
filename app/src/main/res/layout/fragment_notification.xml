@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.main.NotificationFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="우리동네 밥소식"
+            android:id="@+id/notification"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@color/quantum_amber50"
+            android:drawableLeft="@drawable/frenchfries_64px"
+            android:drawableRight="@drawable/pizza_64px"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_below="@+id/notification"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/noti_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notification" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_notification"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/bookmark_image"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/person_32px"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/bookmark_title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="가게이름"
+        android:layout_toRightOf="@id/bookmark_image"
+        android:autoSizeMaxTextSize="40dp"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeStepGranularity="1dp"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/bookmark_address"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="가게주소"
+        android:layout_below="@id/bookmark_title"
+        android:layout_toRightOf="@id/bookmark_image"
+        android:autoSizeMaxTextSize="40dp"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeStepGranularity="1dp"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <ImageView
+        android:id="@+id/bookmark_rice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rice_64px"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">우리동네 밥소식</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login-->
+    <string name="password_hint">특수문자 / 문자 / 숫자 포함 형태의 8~20자리 이내의 암호 정규식</string>
+    <!-- API Key-->
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCJwOtl-8kX1iUJ4iZZVF4bZhR-TpPu-mw</string>
+
+    <string name="post_title_hint">제목을 적어주세요.</string>
+    <string name="post_content_hint">내용을 적어주세요.</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="msg_subscribed">Subscribed to %s topic</string>
+    <string name="msg_unsubscribed">Unsubscribed to %s topic</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="msg_unsubscribe_failed">Failed to unsubscribe to weather topic</string>
+
+</resources>

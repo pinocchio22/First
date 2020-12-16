@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEC20C</color>
+    <color name="colorPrimaryDark">#FE780A</color>
+    <color name="colorAccent">#FEDC46</color>
+
+    <color name="post_content_hint">#89c3c3c3</color>
+</resources>

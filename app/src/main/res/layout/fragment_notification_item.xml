@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_notification"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/noti_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeMinTextSize="5dp"
+            android:autoSizeStepGranularity="1dp"
+            android:autoSizeTextType="uniform"
+            android:drawableLeft="@drawable/noti_32px"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:text="알림 제목입니다." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/noti_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="가게이름"
+                android:autoSizeMaxTextSize="20dp"
+                android:autoSizeMinTextSize="3dp"
+                android:autoSizeStepGranularity="1dp"
+                android:autoSizeTextType="uniform"
+                android:layout_weight="4" />
+
+            <TextView
+                android:id="@+id/noti_time"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="날짜날짜날짜 / 시간시간시간"
+                android:textSize="10dp"
+                android:paddingLeft="10dp"
+                android:layout_gravity="right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</layout>

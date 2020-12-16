@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/fragment_margin"
+        android:paddingRight="@dimen/fragment_margin"
+        android:paddingTop="@dimen/fragment_margin"
+        tools:context=".fragments.preference.WritePostFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="우리동네 밥소식"
+        android:id="@+id/title_bar"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/quantum_amber50"
+        android:drawableLeft="@drawable/frenchfries_64px"
+        android:drawableRight="@drawable/pizza_64px"/>
+
+    <EditText
+        android:id="@+id/post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:hint="@string/post_title_hint"
+        android:textColor="?attr/colorPrimary"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:textSize="@dimen/new_note_title"
+        android:textStyle="normal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/title_bar"/>
+
+    <EditText
+        android:id="@+id/post_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="14"
+        android:hint="@string/post_content_hint"
+        android:textColorHint="@color/post_content_hint"
+        android:layout_below="@id/post_title"
+        android:textSize="@dimen/input_new_post" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="완료"
+        android:layout_below="@id/post_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:layout_below="@id/post_content"
+        android:layout_toStartOf="@id/btn_complete"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"/>
+
+    </RelativeLayout>
+</layout>
